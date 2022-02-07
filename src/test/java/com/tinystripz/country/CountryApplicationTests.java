@@ -1,4 +1,4 @@
-package com.tinystripz.country;
+package com.tinystripz.country_info;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

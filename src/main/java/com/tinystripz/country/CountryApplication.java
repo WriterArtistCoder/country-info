@@ -1,4 +1,4 @@
-package com.tinystripz.country;
+package com.tinystripz.country_info;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package com.tinystripz.country;
+package com.tinystripz.country_info;
 
 import java.util.Random;
 
@@ -13,8 +13,8 @@ public class MyController {
 		return "answer";
 	}
 	
-	@GetMapping("/country")
-	String country() {
+	@GetMapping("/country_info")
+	String country_info() {
 		String[] countries = {"U.S.A", "Canada", "Mexico", "Europe", "China", "Denmark"};
 		return countries[new Random().nextInt(countries.length)];
 	}

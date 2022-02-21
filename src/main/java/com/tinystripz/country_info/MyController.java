@@ -15,7 +15,7 @@ public class MyController {
 	
 	@GetMapping("/country_info")
 	String country_info() {
-		String[] countries = {"U.S.A", "Canada", "Mexico", "Europe", "China", "Denmark"};
-		return countries[new Random().nextInt(countries.length)];
+		String[] countries = {"New York, NY", "Los Angeles, CA", "Chicago, IL", "Houston, TX", "Phoenix, AZ", "Philadelphia, PA", "San Antionio, TX", "San Diego, CA", "Dallas, TX",  "San Jose, CA"};
+		return "<html><h1>"+countries[new Random().nextInt(countries.length)] + "</h1></html>";
 	}
 }
